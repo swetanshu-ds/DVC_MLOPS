@@ -1,4 +1,7 @@
-with open("artifact.txt","r") as f:
+with open("artifact1.txt","r") as f:
     text = f.read()
     
+    
+with open("artifact1.txt","w") as f:
+    text = f.write(text + "i have added one line")
 print(text)
